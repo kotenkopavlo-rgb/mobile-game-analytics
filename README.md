@@ -47,3 +47,11 @@ The repository will contain organized SQL queries, analysis results, and documen
 - **Approach:** Count distinct players per day using `game_events_full`.
 - **SQL query:** [01_daily_active_users.sql](sql/01_daily_active_users.sql)
 - **Status:** Completed
+
+### MGA-002: Game Session Analysis
+
+- **Business question:** How many sessions are played, and how long do they last?
+- **Approach:** Calculate total sessions, unique players, and session duration statistics.
+- **SQL query:** [02_session_analysis.sql](sql/02_session_analysis.sql)
+- **Key findings:** 3,000,000 sessions, 900,000 unique players, and an average session duration of 1,199.49 seconds (about 20 minutes).
+- **Status:** Completed
