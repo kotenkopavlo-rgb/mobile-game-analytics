@@ -38,3 +38,12 @@ SQL queries and findings will be added as the project develops.
 ## Project Structure
 
 The repository will contain organized SQL queries, analysis results, and documentation for each task.
+
+## SQL Analysis
+
+### MGA-001: Daily Active Users (DAU)
+
+- **Business question:** How many unique players are active each day?
+- **Approach:** Count distinct players per day using `game_events_full`.
+- **SQL query:** [01_daily_active_users.sql](sql/01_daily_active_users.sql)
+- **Status:** Completed
